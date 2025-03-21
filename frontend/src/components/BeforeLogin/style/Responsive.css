@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  .Home {
+    .home-div {
+      main {
+        h2 {
+          font-size: 20px !important;
+          margin-bottom: 20px !important;
+          padding-top: 0 !important;
+          padding: 0 !important;
+        }
+
+        .topics {
+          flex-direction: column !important;
+
+          .robot {
+            top: -40px !important;
+          }
+
+          h3 {
+            height: 40px;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .slider-container {
+      margin: 0 !important;
+    }
+
+    .banner-img-container {
+      margin-top: 30px !important;
+
+      .text {
+        h1 {
+          font-size: 30px !important;
+        }
+      }
+
+      .banner-img {
+        width: auto !important;
+      }
+    }
+
+    .extra {
+      font-size: 25px !important;
+    }
+  }
+
+  .Courses {
+    main {
+      .heading-row {
+        h2 {
+          font-size: 22px !important;
+        }
+      }
+    }
+  }
+
+  & .Login,
+  & .Signup {
+    .login-form {
+      padding: 20px 30px !important;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}

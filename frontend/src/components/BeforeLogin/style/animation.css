@@ -1,0 +1,138 @@
+@keyframes animateWave {
+  0% {
+    background-position: 1000px;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+@keyframes autoRun {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * -1);
+  }
+}
+@keyframes line {
+  from {
+    transform: rotate(90deg);
+    top: -2vw;
+  }
+  to {
+    transform: rotate(70deg);
+    top: -6.2vw;
+  }
+}
+@keyframes round2 {
+  0% {
+    top: 8vw;
+    right: 25vw;
+    width: 15px;
+    height: 15px;
+  }
+  100% {
+    right: 18vw;
+    top: 0;
+  }
+}
+@keyframes curveCircle {
+  0% {
+    right: -8vw;
+    opacity: 0;
+  }
+  100% {
+    right: 4vw;
+    opacity: 1;
+  }
+}
+@keyframes curveLine {
+  0% {
+    right: 10.5vw;
+    opacity: 0;
+  }
+  100% {
+    right: 5.5vw;
+    opacity: 1;
+  }
+}
+@keyframes height0 {
+  0% {
+    height: 0;
+    top: 9.5vw;
+    background: linear-gradient(180deg, #9e62ff5d, #8958d9d1);
+  }
+  100% {
+    height: 6vw;
+    top: 3.5vw;
+    background: linear-gradient(180deg, #9e62ff5d, #8958d9d1);
+  }
+}
+@keyframes height1 {
+  0% {
+    height: 0;
+    top: 9.5vw;
+    background: linear-gradient(180deg, #9e62ff5d, #8958d9d1);
+  }
+  100% {
+    height: 8vw;
+    top: 1.5vw;
+    background: linear-gradient(180deg, #9e62ff5d, #8958d9d1);
+  }
+}
+@keyframes height2 {
+  0% {
+    height: 0;
+    top: 9.5vw;
+    background: linear-gradient(180deg, #9e62ff5d, #8958d9d1);
+  }
+  100% {
+    height: 10vw;
+    top: -0.5vw;
+    background: linear-gradient(180deg, #9e62ff5d, #8958d9d1);
+  }
+}
+@keyframes height3 {
+  0% {
+    height: 0;
+    top: 9.5vw;
+    background: linear-gradient(180deg, #9e62ff5d, #8958d9d1);
+  }
+  100% {
+    height: 5vw;
+    top: 4.5vw;
+    background: linear-gradient(180deg, #9e62ff5d, #8958d9d1);
+  }
+}
+@keyframes height4 {
+  0% {
+    height: 0;
+    top: 9.5vw;
+    background: linear-gradient(180deg, #9e62ff5d, #8958d9d1);
+  }
+  100% {
+    height: 7.5vw;
+    top: 2vw;
+    background: linear-gradient(180deg, #9e62ff5d, #8958d9d1);
+  }
+}
+
+/* UNUSED */
+@keyframes textAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

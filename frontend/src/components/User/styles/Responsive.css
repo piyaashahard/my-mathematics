@@ -1,0 +1,392 @@
+@media (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  .home-container {
+    .hero-section {
+      padding: 30px !important;
+      flex-direction: column;
+
+      .hero-content {
+        max-width: 100% !important;
+      }
+      .hero-image {
+        margin-top: 30px;
+        max-width: 100% !important;
+      }
+    }
+    .features-section {
+      .features {
+        flex-direction: column;
+
+        .feature {
+          max-width: 100% !important;
+          margin-top: 30px;
+
+          &:first-child {
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+    .popular-courses {
+      margin-top: 0 !important;
+      padding: 15px !important;
+
+      .courses {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+      }
+
+      h2 {
+        font-size: 2rem !important;
+        margin-bottom: 0 !important;
+      }
+    }
+    .mathematicians-section {
+      padding: 20px !important;
+
+      .mathematician-card {
+        p {
+          font-size: 15px;
+        }
+      }
+
+      h2 {
+        font-size: 25px !important;
+      }
+    }
+    .millennium-problems {
+      margin: 20px !important;
+      padding: 25px !important;
+    }
+    .lower-banner-section {
+      .absolute {
+        h1 {
+          font-size: 2.2em;
+        }
+      }
+    }
+  }
+
+  .geometry-blog,
+  .prime-numbers,
+  .blogs-olympiads-tips {
+    padding: 10px !important;
+
+    .prime-container {
+      .title {
+        font-size: 1.8rem !important;
+      }
+    }
+
+    h1 {
+      font-size: 2em !important;
+    }
+    h2 {
+      font-size: 1.7em !important;
+    }
+  }
+
+  footer {
+    .logo {
+      width: 100% !important;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      flex-direction: column;
+      margin-left: 20px;
+
+      p {
+        font-size: 25px !important;
+      }
+    }
+    .all-items {
+      flex-direction: column;
+      padding: 10px 50px !important;
+
+      .links,
+      .legal {
+        margin-top: 0 !important;
+      }
+
+      .links {
+        margin-top: 25px !important;
+      }
+      .social {
+        border: none !important;
+      }
+
+      .links,
+      .tools,
+      .legal,
+      .social {
+        width: 90% !important;
+        border-bottom: 2px solid var(--accent-success-dark);
+        margin-bottom: 25px !important;
+        margin: 0 25px;
+        padding-bottom: 15px;
+      }
+    }
+  }
+
+  .Blogs {
+    .Subscribe {
+      .row {
+        padding: 0 !important;
+        flex-direction: column !important;
+
+        .logo,
+        .form {
+          width: 100% !important;
+        }
+
+        .logo {
+          img {
+            width: 300px;
+          }
+        }
+
+        .form {
+          p {
+            width: 100% !important;
+            margin-top: -10px !important;
+            padding: 0 !important;
+            margin-bottom: 30px;
+          }
+
+          form {
+            width: 275px;
+            margin-bottom: 20px;
+
+            svg {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .Courses {
+    padding: 20px 0 !important;
+    margin-top: 20px;
+
+    h1 {
+      margin-left: 35px !important;
+    }
+
+    #p {
+      margin: 10px !important;
+      margin-left: 35px !important;
+    }
+
+    main {
+      margin: 30px !important;
+
+      .heading-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+          font-size: 16px !important;
+        }
+      }
+
+      .number {
+        .topics {
+          padding: 18px !important;
+
+          & .full-topic {
+            .topic {
+              width: 100px !important;
+              height: 100px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .AllFAQs {
+    width: auto !important;
+    .faqsHeading {
+      font-size: 23px !important;
+    }
+    .faqs {
+      width: 82vw !important;
+
+      .row {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+
+        .zip-button {
+          width: 100%;
+          margin-bottom: 10px !important;
+
+          button {
+            font-size: 15px !important;
+            margin-right: 15px;
+            padding: 15px 25px !important;
+          }
+        }
+
+        .topic-name {
+          font-size: 20px !important;
+          width: 100%;
+        }
+      }
+    }
+    .download-selected {
+      button {
+        font-size: 15px !important;
+        margin-right: 25px;
+        padding: 15px 25px !important;
+      }
+    }
+    .download-button-list.BdMO {
+      .level-section {
+        display: flex !important;
+        flex-direction: column;
+        gap: 5px;
+
+        .boxes {
+          margin-left: 10px;
+          grid-template-columns: repeat(1, 235px);
+        }
+      }
+    }
+    .download-button-list {
+      grid-template-columns: repeat(1, 300px) !important;
+    }
+    .faqs.IMO {
+      padding-left: 0 !important;
+
+      .row {
+        padding-left: 30px;
+      }
+
+      .download-button-list {
+        grid-template-columns: repeat(2, 150px) !important;
+      }
+    }
+    .olympiadBooks {
+      margin: 20px;
+
+      .books {
+        grid-template-columns: repeat(1, 100%) !important;
+
+        .book {
+          margin-right: 0 !important;
+          margin-top: 5px !important;
+        }
+
+        .categorySection-books {
+          display: grid;
+          grid-template-columns: repeat(1, 100%) !important;
+          gap: 20px;
+        }
+      }
+    }
+  }
+
+  .formulas {
+    padding: 10px 20px !important;
+
+    h2 {
+      font-size: 1.4em !important;
+    }
+
+    .formula-section {
+      padding: 15px !important;
+      padding-left: 20px !important;
+      overflow-x: scroll;
+      scrollbar-width: thin;
+
+      ul {
+        padding-left: 0 !important;
+        font-size: 13px !important;
+      }
+
+      h3 {
+        font-size: 1.2em !important;
+        margin-top: 0 !important;
+      }
+
+      h4 {
+        font-size: 1em !important;
+        margin-top: 0 !important;
+      }
+
+      .react-katex {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .Blogs {
+    .blog-page {
+      h1 {
+        font-size: 2rem !important;
+      }
+      p {
+        font-size: 1.1rem !important;
+        text-align: left;
+      }
+    }
+  }
+
+  .contact {
+    form {
+      padding: 0 !important;
+      width: 100% !important;
+
+      .input-div {
+        input,
+        textarea {
+          width: 330px !important;
+        }
+      }
+    }
+
+    .contact-row {
+      flex-direction: column;
+
+      .contact-list {
+        width: 90% !important;
+      }
+
+      iframe {
+        margin-top: 30px;
+        width: 90% !important;
+      }
+    }
+  }
+
+  .terms-and-condition-page {
+    h1 {
+      font-size: 2em !important;
+    }
+    h2 {
+      font-size: 1.5em !important;
+    }
+    .terms-header p {
+      margin-top: 10px;
+      line-height: 1.3;
+    }
+  }
+
+  .all-mathematicians-information {
+    columns: 1 !important;
+    max-width: 90% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Courses {
+    padding: 20px !important;
+  }
+}

@@ -1,0 +1,107 @@
+.users-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  .loading,
+  .error,
+  .no-users {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+  }
+
+  .users-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .user-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .user-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .user-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+  }
+
+  .user-info {
+    flex-grow: 1;
+  }
+
+  .user-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+
+  .user-info p strong {
+    color: #333;
+  }
+}
+
+/* General Navbar Styles */
+.navbar {
+  background-color: #2c3e50;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .navbar-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-item {
+    margin: 0 10px;
+  }
+
+  .navbar-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ecf0f1;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .navbar-link:hover {
+    color: #f39c12;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-list {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
